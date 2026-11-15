@@ -1,0 +1,7 @@
+# partition backups never leave the machine, never enter git
+backups/
+*.img
+
+# python
+__pycache__/
+*.pyc

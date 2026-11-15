@@ -1,0 +1,21 @@
+schema = 1
+codename = "marble"
+vendor = "Xiaomi"
+marketing = ["POCO F5", "Redmi Note 12 Turbo (China)"]
+soc = "Snapdragon 7+ Gen 2 (SM7475-AB)"
+ram = "8/12 GB LPDDR5"
+storage = "256/512 GB UFS 3.1"
+
+bootloader = "unlockable; unlocked on the owner's unit (China variant), owner chat 2026-11-07"
+
+sensors = ["accelerometer", "gyroscope", "light", "proximity"]
+sensors_note = "modern Qualcomm: expected via Snapdragon Sensor Core DSP; backend qcom-ssc (libssc + hexagonrpcd), unverified on this unit"
+
+role = "sandbox"
+branch_targets = [1, 2]
+
+mainline = { status = "unknown", source = "unverified" }
+halium = { status = "partial", source = "owner chat 2026-11-07: Android base exists, LineageOS official; unverified on this unit" }
+pmos = { status = "does-not-boot", source = "owner chat 2026-11-07, unverified" }
+
+notes = "Sandbox. Windows-branch experiments (Renegade on SM7475) are expected to need a from-scratch port; research stage only."

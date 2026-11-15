@@ -1,0 +1,19 @@
+schema = 1
+codename = "lavender"
+vendor = "Xiaomi"
+marketing = ["Redmi Note 7"]
+soc = "Snapdragon 660 (SDM660)"
+ram = "3/4 GB LPDDR4X"
+
+bootloader = "unlockable via Mi Unlock; owner chat 2026-11-07 lists it in the collection"
+
+sensors = ["accelerometer", "gyroscope", "light", "proximity"]
+
+role = "collection"
+branch_targets = [1]
+
+mainline = { status = "unknown", source = "unverified" }
+halium = { status = "unknown", source = "unverified" }
+pmos = { status = "unknown", source = "unverified" }
+
+notes = "Collection device; branch 1 candidate on older hardware. No unit tests yet."

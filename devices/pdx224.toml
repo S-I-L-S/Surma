@@ -1,0 +1,21 @@
+schema = 1
+codename = "pdx224"
+vendor = "Sony"
+marketing = ["Xperia 1 IV"]
+soc = "Snapdragon 8 Gen 1 (SM8450)"
+ram = "12/16 GB LPDDR5"
+storage = "256/512 GB"
+
+bootloader = "unlockable via Sony official service; planned reference stand, owner chat 2026-11-07"
+
+sensors = ["accelerometer", "gyroscope", "light", "proximity"]
+sensors_note = "modern Qualcomm: expected via Snapdragon Sensor Core DSP; backend qcom-ssc (libssc + hexagonrpcd), unverified on this unit"
+
+role = "reference"
+branch_targets = [1, 2]
+
+mainline = { status = "partial", source = "owner chat 2026-11-07: device tree in upstream Linux efforts since 2022; unit untested, unverified" }
+halium = { status = "unknown", source = "unverified" }
+pmos = { status = "unknown", source = "unverified" }
+
+notes = "Main stand. Experiments do not run here; they run on marble. Modem, cameras and sensors expected to need work even with mainline DT."

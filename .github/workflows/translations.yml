@@ -1,0 +1,15 @@
+name: translations
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: generated READMEs are up to date
+        run: python3 tools/gen-translations.py --check
+      - name: passports are valid
+        run: python3 tools/passport-check.py

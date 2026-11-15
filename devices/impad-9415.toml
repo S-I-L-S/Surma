@@ -1,0 +1,21 @@
+schema = 1
+codename = "impad-9415"
+vendor = "ImPAD"
+marketing = ["ImPAD 9415"]
+soc = "Intel Atom x3-C3230RK (SoFIA, 4 cores, x86-64)"
+ram = "1 GB"
+storage = "8/16 GB"
+
+bootloader = "consumer x86 tablet UEFI of unknown depth; owner chat 2026-11-07: separate quest on a non-standard platform"
+
+sensors = ["accelerometer"]
+sensors_note = "accelerometer only, per owner chat 2026-11-07"
+
+role = "collection"
+branch_targets = [1]
+
+mainline = { status = "unknown", source = "unverified; x86 path may not need a device tree at all" }
+halium = { status = "does-not-apply", source = "not an Android-vendor device in the Halium sense" }
+pmos = { status = "unknown", source = "unverified" }
+
+notes = "Atom x3 with Mali-450: a non-standard x86 platform. Not a Windows-branch candidate (owner chat 2026-11-07). Likely a hobbyist quest rather than a supported port."

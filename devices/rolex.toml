@@ -1,0 +1,19 @@
+schema = 1
+codename = "rolex"
+vendor = "Xiaomi"
+marketing = ["Redmi 4A"]
+soc = "Snapdragon 425 (MSM8917)"
+ram = "2 GB LPDDR3"
+
+bootloader = "unlockable via Mi Unlock; owner chat 2026-11-07 lists it in the collection"
+
+sensors = ["accelerometer", "light", "proximity"]
+
+role = "collection"
+branch_targets = [1]
+
+mainline = { status = "unknown", source = "unverified" }
+halium = { status = "unknown", source = "unverified" }
+pmos = { status = "unknown", source = "unverified" }
+
+notes = "No unit tests yet."
